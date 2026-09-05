@@ -1040,7 +1040,17 @@
         "LazyData": "TRUE",
         "RoxygenNote": "7.1.0",
         "VignetteBuilder": "knitr",
-        "NeedsCompilation": "no"
+        "NeedsCompilation": "no",
+        "RemoteType": "github",
+        "RemoteHost": "api.github.com",
+        "RemoteRepo": "pavian",
+        "RemoteUsername": "timp0",
+        "RemoteRef": "HEAD",
+        "RemoteSha": "14fbaf4d7965adcfdc3449a6e342d673a9a8320d",
+        "GithubRepo": "pavian",
+        "GithubUsername": "timp0",
+        "GithubRef": "HEAD",
+        "GithubSHA1": "14fbaf4d7965adcfdc3449a6e342d673a9a8320d"
       }
     },
     "pillar": {
@@ -1221,7 +1231,18 @@
         "Encoding": "UTF-8",
         "LazyData": "true",
         "Roxygen": "list(markdown = TRUE)",
-        "RoxygenNote": "7.3.3"
+        "RoxygenNote": "7.3.3",
+        "RemoteType": "github",
+        "RemoteHost": "api.github.com",
+        "RemoteRepo": "sankeyD3",
+        "RemoteUsername": "fbreitwieser",
+        "RemoteRef": "HEAD",
+        "RemoteSha": "b2260a3fd675639c173bf1b1358b0a031908383b",
+        "GithubRepo": "sankeyD3",
+        "GithubUsername": "fbreitwieser",
+        "GithubRef": "HEAD",
+        "GithubSHA1": "b2260a3fd675639c173bf1b1358b0a031908383b",
+        "NeedsCompilation": "no"
       }
     },
     "sass": {
@@ -1292,7 +1313,18 @@
         "Imports": "htmlwidgets",
         "License": "GPL-3",
         "LazyData": "true",
-        "RoxygenNote": "6.1.1"
+        "RoxygenNote": "6.1.1",
+        "RemoteType": "github",
+        "RemoteHost": "api.github.com",
+        "RemoteRepo": "shinyFileTree",
+        "RemoteUsername": "fbreitwieser",
+        "RemoteRef": "HEAD",
+        "RemoteSha": "76c44e744c930c3908a98d4a055a5bff7fba1e0c",
+        "GithubRepo": "shinyFileTree",
+        "GithubUsername": "fbreitwieser",
+        "GithubRef": "HEAD",
+        "GithubSHA1": "76c44e744c930c3908a98d4a055a5bff7fba1e0c",
+        "NeedsCompilation": "no"
       }
     },
     "shinyWidgets": {
