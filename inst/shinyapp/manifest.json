@@ -1024,7 +1024,6 @@
       "GithubUsername": "timp0",
       "GithubRef": "HEAD",
       "GithubSha1": "14fbaf4d7965adcfdc3449a6e342d673a9a8320d",
-      "GithubHost": "https://api.github.com",
       "description": {
         "Package": "pavian",
         "Type": "Package",
@@ -1204,7 +1203,6 @@
       "GithubUsername": "fbreitwieser",
       "GithubRef": "HEAD",
       "GithubSha1": "b2260a3fd675639c173bf1b1358b0a031908383b",
-      "GithubHost": "https://api.github.com",
       "description": {
         "Package": "sankeyD3",
         "Type": "Package",
@@ -1284,7 +1282,6 @@
       "GithubUsername": "fbreitwieser",
       "GithubRef": "HEAD",
       "GithubSha1": "76c44e744c930c3908a98d4a055a5bff7fba1e0c",
-      "GithubHost": "https://api.github.com",
       "description": {
         "Package": "shinyFileTree",
         "Title": "Directory tree for R/Shiny",
