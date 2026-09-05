@@ -26,7 +26,7 @@
     },
     "BiocGenerics": {
       "Source": "Bioconductor",
-      "Repository": "https://bioconductor.org/packages/3.22/bioc/src/contrib",
+      "Repository": "https://bioconductor.org/packages/3.22/bioc",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -44,7 +44,7 @@
     },
     "BiocParallel": {
       "Source": "Bioconductor",
-      "Repository": "https://bioconductor.org/packages/3.22/bioc/src/contrib",
+      "Repository": "https://bioconductor.org/packages/3.22/bioc",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -64,7 +64,7 @@
     },
     "Biostrings": {
       "Source": "Bioconductor",
-      "Repository": "https://bioconductor.org/packages/3.22/bioc/src/contrib",
+      "Repository": "https://bioconductor.org/packages/3.22/bioc",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -99,7 +99,7 @@
     },
     "GenomicRanges": {
       "Source": "Bioconductor",
-      "Repository": "https://bioconductor.org/packages/3.22/bioc/src/contrib",
+      "Repository": "https://bioconductor.org/packages/3.22/bioc",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -118,7 +118,7 @@
     },
     "IRanges": {
       "Source": "Bioconductor",
-      "Repository": "https://bioconductor.org/packages/3.22/bioc/src/contrib",
+      "Repository": "https://bioconductor.org/packages/3.22/bioc",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -185,7 +185,7 @@
     },
     "Rhtslib": {
       "Source": "Bioconductor",
-      "Repository": "https://bioconductor.org/packages/3.22/bioc/src/contrib",
+      "Repository": "https://bioconductor.org/packages/3.22/bioc",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -202,7 +202,7 @@
     },
     "Rsamtools": {
       "Source": "Bioconductor",
-      "Repository": "https://bioconductor.org/packages/3.22/bioc/src/contrib",
+      "Repository": "https://bioconductor.org/packages/3.22/bioc",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -221,7 +221,7 @@
     },
     "S4Vectors": {
       "Source": "Bioconductor",
-      "Repository": "https://bioconductor.org/packages/3.22/bioc/src/contrib",
+      "Repository": "https://bioconductor.org/packages/3.22/bioc",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -255,7 +255,7 @@
     },
     "Seqinfo": {
       "Source": "Bioconductor",
-      "Repository": "https://bioconductor.org/packages/3.22/bioc/src/contrib",
+      "Repository": "https://bioconductor.org/packages/3.22/bioc",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -273,7 +273,7 @@
     },
     "XVector": {
       "Source": "Bioconductor",
-      "Repository": "https://bioconductor.org/packages/3.22/bioc/src/contrib",
+      "Repository": "https://bioconductor.org/packages/3.22/bioc",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
