@@ -150,9 +150,14 @@ manifest; don't lean on the runtime fallback.
   Changing R code in `R/` does **not** reach the deployment until you bump `GithubSha1`
   and `description.RemoteSha` in the manifest. This is easy to forget and looks like
   "my change didn't deploy".
-- **Auto-publish on push** is enabled but did not fire during the September 2026
-  migration; each deploy needed the Republish button in the Connect Cloud UI. Worth
-  re-checking on the next real change.
+- **Auto-publish on push** is enabled and works, but it only started firing once the
+  content had published successfully at least once. While the deploy was still failing,
+  every retry needed the Republish button in the Connect Cloud UI. So if you're debugging
+  a broken manifest, expect to click Republish rather than waiting on the webhook.
+- **Stopping the app:** there is no stop or pause button, and you don't need one. Workers
+  start on demand and shut down after the idle timeout (Settings -> Runtime, currently
+  5 seconds), so nothing is running when nobody is connected. The only way to take it
+  offline for good is the Delete item in the content's `...` menu, which is permanent.
 - **Ephemeral filesystem:** `enableBookmarking = "server"` and pavian's
   `rappdirs::user_config_dir()` both write to the container, which is wiped on restart.
   Bookmarks won't survive.
