@@ -1,0 +1,1705 @@
+{
+  "version": 1,
+  "locale": "en_US",
+  "platform": "4.5.1",
+  "metadata": {
+    "appmode": "shiny",
+    "primary_rmd": null,
+    "primary_html": null,
+    "content_category": null,
+    "has_parameters": false
+  },
+  "packages": {
+    "BH": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "BH",
+        "Version": "1.90.0-1",
+        "NeedsCompilation": "no",
+        "License": "BSL-1.0"
+      }
+    },
+    "BiocGenerics": {
+      "Source": "Bioconductor",
+      "Repository": "https://bioconductor.org/packages/3.22/bioc/src/contrib",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "BiocGenerics",
+        "Version": "0.56.0",
+        "Depends": "R (>= 4.0.0), methods, utils, graphics, stats, generics",
+        "Imports": "methods, utils, graphics, stats",
+        "Suggests": "Biobase, S4Vectors, IRanges, S4Arrays, SparseArray, DelayedArray, HDF5Array, GenomicRanges, pwalign, Rsamtools, AnnotationDbi, affy, affyPLM, DESeq2, flowClust, MSnbase, annotate, MultiAssayExperiment, RUnit",
+        "License": "Artistic-2.0",
+        "MD5sum": "5d6a2059f5c9559acfd2bd95d0db93bf",
+        "NeedsCompilation": "no"
+      }
+    },
+    "BiocParallel": {
+      "Source": "Bioconductor",
+      "Repository": "https://bioconductor.org/packages/3.22/bioc/src/contrib",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "BiocParallel",
+        "Version": "1.44.0",
+        "Depends": "methods, R (>= 4.1.0)",
+        "Imports": "stats, utils, futile.logger, parallel, snow, codetools",
+        "LinkingTo": "BH (>= 1.87.0), cpp11",
+        "Suggests": "BiocGenerics, tools, foreach, BBmisc, doParallel, GenomicRanges, RNAseqData.HNRNPC.bam.chr14, TxDb.Hsapiens.UCSC.hg19.knownGene, VariantAnnotation, Rsamtools, GenomicAlignments, ShortRead, RUnit, BiocStyle, knitr, batchtools, data.table",
+        "Enhances": "Rmpi",
+        "License": "GPL-2 | GPL-3 | BSL-1.0",
+        "MD5sum": "75ab7c6895d7c10cbf15f4335adc6f08",
+        "NeedsCompilation": "yes"
+      }
+    },
+    "Biostrings": {
+      "Source": "Bioconductor",
+      "Repository": "https://bioconductor.org/packages/3.22/bioc/src/contrib",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "Biostrings",
+        "Version": "2.78.0",
+        "Depends": "R (>= 4.1.0), BiocGenerics (>= 0.37.0), S4Vectors (>= 0.27.12), IRanges (>= 2.31.2), XVector (>= 0.37.1), Seqinfo",
+        "Imports": "methods, utils, grDevices, stats, crayon",
+        "LinkingTo": "S4Vectors, IRanges, XVector",
+        "Suggests": "graphics, pwalign, BSgenome (>= 1.13.14), BSgenome.Celegans.UCSC.ce2 (>= 1.3.11), BSgenome.Dmelanogaster.UCSC.dm3 (>= 1.3.11), BSgenome.Hsapiens.UCSC.hg18, drosophila2probe, hgu95av2probe, hgu133aprobe, GenomicFeatures (>= 1.3.14), hgu95av2cdf, affy (>= 1.41.3), affydata (>= 1.11.5), RUnit, BiocStyle, knitr, testthat (>= 3.0.0), covr",
+        "License": "Artistic-2.0",
+        "MD5sum": "b4ec1bf212646114ef729393f6ff3855",
+        "NeedsCompilation": "yes"
+      }
+    },
+    "DT": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "DT",
+        "Version": "0.34.0",
+        "Imports": "crosstalk, htmltools (>= 0.3.6), htmlwidgets (>= 1.3), jquerylib, jsonlite (>= 0.9.16), magrittr, promises",
+        "Suggests": "bslib, future, httpuv, knitr (>= 1.8), rmarkdown, shiny (>= 1.6), testit, tibble",
+        "NeedsCompilation": "no",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "GenomicRanges": {
+      "Source": "Bioconductor",
+      "Repository": "https://bioconductor.org/packages/3.22/bioc/src/contrib",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "GenomicRanges",
+        "Version": "1.62.1",
+        "Depends": "R (>= 4.0.0), methods, stats4, BiocGenerics (>= 0.53.2), S4Vectors (>= 0.45.2), IRanges (>= 2.43.6), Seqinfo (>= 0.99.3)",
+        "Imports": "utils, stats",
+        "LinkingTo": "S4Vectors, IRanges",
+        "Suggests": "GenomeInfoDb, Biobase, AnnotationDbi, annotate, Biostrings (>= 2.77.2), SummarizedExperiment (>= 1.39.1), Rsamtools, GenomicAlignments, BSgenome, GenomicFeatures, UCSC.utils, txdbmaker, Gviz, VariantAnnotation, AnnotationHub, DESeq2, DEXSeq, edgeR, KEGGgraph, RNAseqData.HNRNPC.bam.chr14, pasillaBamSubset, KEGGREST, hgu95av2.db, hgu95av2probe, BSgenome.Scerevisiae.UCSC.sacCer2, BSgenome.Hsapiens.UCSC.hg38, BSgenome.Mmusculus.UCSC.mm10, TxDb.Athaliana.BioMart.plantsmart22, TxDb.Dmelanogaster.UCSC.dm3.ensGene, TxDb.Hsapiens.UCSC.hg38.knownGene, TxDb.Mmusculus.UCSC.mm10.knownGene, RUnit, digest, knitr, rmarkdown, BiocStyle",
+        "License": "Artistic-2.0",
+        "MD5sum": "aa38e9c50dd8981e4db04cc5beee8078",
+        "NeedsCompilation": "yes"
+      }
+    },
+    "IRanges": {
+      "Source": "Bioconductor",
+      "Repository": "https://bioconductor.org/packages/3.22/bioc/src/contrib",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "IRanges",
+        "Version": "2.44.0",
+        "Depends": "R (>= 4.0.0), methods, utils, stats, BiocGenerics (>= 0.53.2), S4Vectors (>= 0.47.6)",
+        "Imports": "stats4",
+        "LinkingTo": "S4Vectors",
+        "Suggests": "XVector, GenomicRanges, Rsamtools, GenomicAlignments, GenomicFeatures, BSgenome.Celegans.UCSC.ce2, pasillaBamSubset, RUnit, BiocStyle",
+        "License": "Artistic-2.0",
+        "MD5sum": "a169fe4941da3987cebbd383aa9b30f3",
+        "NeedsCompilation": "yes"
+      }
+    },
+    "R6": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "R6",
+        "Version": "2.6.1",
+        "Depends": "R (>= 3.6)",
+        "Suggests": "lobstr, testthat (>= 3.0.0)",
+        "NeedsCompilation": "no",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "RColorBrewer": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "RColorBrewer",
+        "Version": "1.1-3",
+        "Depends": "R (>= 2.0.0)",
+        "NeedsCompilation": "no",
+        "License": "Apache License 2.0"
+      }
+    },
+    "Rcpp": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "Rcpp",
+        "Version": "1.1.2",
+        "Depends": "R (>= 3.5.0)",
+        "Imports": "methods, utils",
+        "Suggests": "tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)",
+        "NeedsCompilation": "yes",
+        "License": "GPL (>= 2)"
+      }
+    },
+    "Rhtslib": {
+      "Source": "Bioconductor",
+      "Repository": "https://bioconductor.org/packages/3.22/bioc/src/contrib",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "Rhtslib",
+        "Version": "3.6.0",
+        "Imports": "tools",
+        "Suggests": "knitr, rmarkdown, BiocStyle",
+        "License": "LGPL (>= 2)",
+        "MD5sum": "e832528219ddfe8adb8c0f0ac4ba29bc",
+        "NeedsCompilation": "yes"
+      }
+    },
+    "Rsamtools": {
+      "Source": "Bioconductor",
+      "Repository": "https://bioconductor.org/packages/3.22/bioc/src/contrib",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "Rsamtools",
+        "Version": "2.26.0",
+        "Depends": "R (>= 3.5.0), methods, Seqinfo, GenomicRanges (>= 1.61.1), Biostrings (>= 2.77.2)",
+        "Imports": "utils, BiocGenerics (>= 0.25.1), S4Vectors (>= 0.17.25), IRanges (>= 2.13.12), XVector (>= 0.19.7), bitops, BiocParallel, stats",
+        "LinkingTo": "Rhtslib (>= 3.3.1), S4Vectors, IRanges, XVector, Biostrings",
+        "Suggests": "GenomicAlignments, ShortRead (>= 1.19.10), GenomicFeatures, VariantAnnotation, TxDb.Dmelanogaster.UCSC.dm3.ensGene, TxDb.Hsapiens.UCSC.hg18.knownGene, RNAseqData.HNRNPC.bam.chr14, BSgenome.Hsapiens.UCSC.hg19, RUnit, BiocStyle, knitr",
+        "License": "Artistic-2.0 | file LICENSE",
+        "MD5sum": "49e2932a8f1cb9515ef3cd8a79754c11",
+        "NeedsCompilation": "yes"
+      }
+    },
+    "S4Vectors": {
+      "Source": "Bioconductor",
+      "Repository": "https://bioconductor.org/packages/3.22/bioc/src/contrib",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "S4Vectors",
+        "Version": "0.48.1",
+        "Depends": "R (>= 4.0.0), methods, utils, stats, stats4, BiocGenerics (>= 0.53.2)",
+        "Suggests": "IRanges, GenomicRanges, SummarizedExperiment, Matrix, DelayedArray, ShortRead, graph, data.table, RUnit, BiocStyle, knitr",
+        "License": "Artistic-2.0",
+        "MD5sum": "97d42c8c8d6bf44fd95675b48dc66d1e",
+        "NeedsCompilation": "yes"
+      }
+    },
+    "S7": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "S7",
+        "Version": "0.2.2",
+        "Depends": "R (>= 3.5.0)",
+        "Imports": "utils",
+        "Suggests": "bench, callr, covr, knitr, methods, rmarkdown, testthat (>= 3.2.0), tibble",
+        "NeedsCompilation": "yes",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "Seqinfo": {
+      "Source": "Bioconductor",
+      "Repository": "https://bioconductor.org/packages/3.22/bioc/src/contrib",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "Seqinfo",
+        "Version": "1.0.0",
+        "Depends": "methods, BiocGenerics",
+        "Imports": "stats, S4Vectors (>= 0.47.6), IRanges",
+        "Suggests": "GenomeInfoDb, GenomicRanges, BSgenome, GenomicFeatures, TxDb.Hsapiens.UCSC.hg38.knownGene, TxDb.Dmelanogaster.UCSC.dm3.ensGene, BSgenome.Hsapiens.UCSC.hg38, BSgenome.Celegans.UCSC.ce2, RUnit, knitr, rmarkdown, BiocStyle",
+        "License": "Artistic-2.0",
+        "MD5sum": "10585f976146cbcf32a4ce7d46a18709",
+        "NeedsCompilation": "no"
+      }
+    },
+    "XVector": {
+      "Source": "Bioconductor",
+      "Repository": "https://bioconductor.org/packages/3.22/bioc/src/contrib",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "XVector",
+        "Version": "0.50.0",
+        "Depends": "R (>= 4.0.0), methods, BiocGenerics (>= 0.37.0), S4Vectors (>= 0.27.12), IRanges (>= 2.43.8)",
+        "Imports": "methods, utils, stats, tools, BiocGenerics, S4Vectors, IRanges",
+        "LinkingTo": "S4Vectors, IRanges",
+        "Suggests": "Biostrings, drosophila2probe, RUnit",
+        "License": "Artistic-2.0",
+        "MD5sum": "929b5a997ee6325853057c28ca3df77d",
+        "NeedsCompilation": "yes"
+      }
+    },
+    "base64enc": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "base64enc",
+        "Version": "0.1-6",
+        "Depends": "R (>= 2.9.0)",
+        "Enhances": "png",
+        "NeedsCompilation": "yes",
+        "License": "GPL-2 | GPL-3"
+      }
+    },
+    "bitops": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "bitops",
+        "Version": "1.1-0",
+        "NeedsCompilation": "yes",
+        "License": "GPL (>= 2)"
+      }
+    },
+    "bslib": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "bslib",
+        "Version": "0.12.0",
+        "Depends": "R (>= 2.10)",
+        "Imports": "base64enc, cachem, fastmap (>= 1.1.1), grDevices, htmltools (>= 0.5.8), jquerylib (>= 0.1.3), jsonlite, lifecycle, memoise (>= 2.0.1), mime, rlang, sass (>= 0.4.9)",
+        "Suggests": "brand.yml, bsicons, curl, fontawesome, future, ggplot2, knitr, lattice, magrittr, rappdirs, rmarkdown (>= 2.7), shiny (>= 1.11.1.9000), testthat, thematic, tools, utils, withr, yaml",
+        "NeedsCompilation": "no",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "cachem": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "cachem",
+        "Version": "1.1.0",
+        "Imports": "rlang, fastmap (>= 1.2.0)",
+        "Suggests": "testthat",
+        "NeedsCompilation": "yes",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "cli": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "cli",
+        "Version": "3.6.6",
+        "Depends": "R (>= 3.4)",
+        "Imports": "utils",
+        "Suggests": "callr, covr, crayon, digest, glue (>= 1.6.0), grDevices, htmltools, htmlwidgets, knitr, methods, processx, ps (>= 1.3.4.9000), rlang (>= 1.0.2.9003), rmarkdown, rprojroot, rstudioapi, testthat (>= 3.2.0), tibble, whoami, withr",
+        "NeedsCompilation": "yes",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "codetools": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "codetools",
+        "Version": "0.2-20",
+        "Priority": "recommended",
+        "Depends": "R (>= 2.1)",
+        "NeedsCompilation": "no",
+        "License": "GPL"
+      }
+    },
+    "colorspace": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "colorspace",
+        "Version": "2.1-3",
+        "Depends": "R (>= 3.0.0), methods",
+        "Imports": "graphics, grDevices, stats",
+        "Suggests": "datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd, tcltk, shiny, shinyjs, ggplot2, dplyr, scales, grid, png, jpeg, knitr, rmarkdown, RColorBrewer, rcartocolor, scico, viridis, wesanderson",
+        "NeedsCompilation": "yes",
+        "License": "BSD_3_clause + file LICENSE"
+      }
+    },
+    "commonmark": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "commonmark",
+        "Version": "2.0.0",
+        "Suggests": "curl, testthat, xml2",
+        "NeedsCompilation": "yes",
+        "License": "BSD_2_clause + file LICENSE"
+      }
+    },
+    "cpp11": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "cpp11",
+        "Version": "0.5.5",
+        "Depends": "R (>= 4.0.0)",
+        "Suggests": "bench, brio, callr, cli, covr, decor, desc, ggplot2, glue, knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp, testthat (>= 3.2.0), tibble, utils, vctrs, withr",
+        "NeedsCompilation": "no",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "crayon": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "crayon",
+        "Version": "1.5.3",
+        "Imports": "grDevices, methods, utils",
+        "Suggests": "mockery, rstudioapi, testthat, withr",
+        "NeedsCompilation": "no",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "crosstalk": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "crosstalk",
+        "Version": "1.2.2",
+        "Imports": "htmltools (>= 0.3.6), jsonlite, lazyeval, R6",
+        "Suggests": "bslib, ggplot2, sass, shiny, testthat (>= 2.1.0)",
+        "NeedsCompilation": "no",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "d3r": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "d3r",
+        "Version": "1.1.0",
+        "Imports": "dplyr, htmltools, tidyr (>= 0.8.3)",
+        "Suggests": "httr, jsonlite, listviewer, purrr, testthat",
+        "Enhances": "igraph, partykit, rpart, treemap, V8",
+        "NeedsCompilation": "no",
+        "License": "BSD_3_clause + file LICENSE"
+      }
+    },
+    "digest": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "digest",
+        "Version": "0.6.39",
+        "Depends": "R (>= 3.3.0)",
+        "Imports": "utils",
+        "Suggests": "tinytest, simplermarkdown, rbenchmark",
+        "NeedsCompilation": "yes",
+        "License": "GPL (>= 2)"
+      }
+    },
+    "dplyr": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "dplyr",
+        "Version": "1.2.1",
+        "Depends": "R (>= 4.1.0)",
+        "Imports": "cli (>= 3.6.2), generics, glue (>= 1.3.2), lifecycle (>= 1.0.5), magrittr (>= 1.5), methods, pillar (>= 1.9.0), R6, rlang (>= 1.1.7), tibble (>= 3.2.0), tidyselect (>= 1.2.0), utils, vctrs (>= 0.7.1)",
+        "Suggests": "broom, covr, DBI, dbplyr (>= 2.2.1), ggplot2, knitr, Lahman, lobstr, nycflights13, purrr, rmarkdown, RSQLite, stringi (>= 1.7.6), testthat (>= 3.1.5), tidyr (>= 1.3.0), withr",
+        "NeedsCompilation": "yes",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "evaluate": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "evaluate",
+        "Version": "1.0.5",
+        "Depends": "R (>= 3.6.0)",
+        "Suggests": "callr, covr, ggplot2 (>= 3.3.6), lattice, methods, pkgload, ragg (>= 1.4.0), rlang (>= 1.1.5), knitr, testthat (>= 3.0.0), withr",
+        "NeedsCompilation": "no",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "farver": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "farver",
+        "Version": "2.1.2",
+        "Suggests": "covr, testthat (>= 3.0.0)",
+        "NeedsCompilation": "yes",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "fastmap": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "fastmap",
+        "Version": "1.2.0",
+        "Suggests": "testthat (>= 2.1.1)",
+        "NeedsCompilation": "yes",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "fontawesome": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "fontawesome",
+        "Version": "0.5.3",
+        "Depends": "R (>= 3.3.0)",
+        "Imports": "rlang (>= 1.0.6), htmltools (>= 0.5.1.1)",
+        "Suggests": "covr, dplyr (>= 1.0.8), gt (>= 0.9.0), knitr (>= 1.31), testthat (>= 3.0.0), rsvg",
+        "NeedsCompilation": "no",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "formatR": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "formatR",
+        "Version": "1.14",
+        "Depends": "R (>= 3.2.3)",
+        "Suggests": "rstudioapi, shiny, testit, rmarkdown, knitr",
+        "NeedsCompilation": "no",
+        "License": "GPL"
+      }
+    },
+    "fs": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "fs",
+        "Version": "2.1.0",
+        "Depends": "R (>= 4.1)",
+        "Imports": "methods",
+        "Suggests": "covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr",
+        "NeedsCompilation": "yes",
+        "License": "MIT + file LICENSE",
+        "SystemRequirements": "libuv: libuv-devel (rpm) or libuv1-dev (deb). Alternatively to build the vendored libuv 'cmake' is required. GNU make."
+      }
+    },
+    "futile.logger": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "futile.logger",
+        "Version": "1.4.9",
+        "Depends": "R (>= 3.0.0)",
+        "Imports": "utils, lambda.r (>= 1.1.0), futile.options",
+        "Suggests": "testit, jsonlite, httr, crayon, rsyslog, glue",
+        "NeedsCompilation": "no",
+        "License": "LGPL-3"
+      }
+    },
+    "futile.options": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "futile.options",
+        "Version": "1.0.1",
+        "Depends": "R (>= 2.8.0)",
+        "NeedsCompilation": "no",
+        "License": "LGPL-3"
+      }
+    },
+    "generics": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "generics",
+        "Version": "0.1.4",
+        "Depends": "R (>= 3.6)",
+        "Imports": "methods",
+        "Suggests": "covr, pkgload, testthat (>= 3.0.0), tibble, withr",
+        "NeedsCompilation": "no",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "ggplot2": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "ggplot2",
+        "Version": "4.0.3",
+        "Depends": "R (>= 4.1)",
+        "Imports": "cli, grDevices, grid, gtable (>= 0.3.6), isoband, lifecycle (> 1.0.1), rlang (>= 1.1.0), S7, scales (>= 1.4.0), stats, vctrs (>= 0.6.0), withr (>= 2.5.0)",
+        "Suggests": "broom, covr, dplyr, ggplot2movies, hexbin, Hmisc, hms, knitr, mapproj, maps, MASS, mgcv, multcomp, munsell, nlme, profvis, quantreg, quarto, ragg (>= 1.2.6), RColorBrewer, roxygen2, rpart, sf (>= 0.7-3), svglite (>= 2.1.2), testthat (>= 3.1.5), tibble, vdiffr (>= 1.0.6), xml2",
+        "Enhances": "sp",
+        "NeedsCompilation": "no",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "ggsci": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "ggsci",
+        "Version": "5.2.0",
+        "Depends": "R (>= 3.5.0)",
+        "Imports": "ggplot2 (>= 2.0.0), grDevices, rlang, scales",
+        "Suggests": "gridExtra, knitr, ragg, rmarkdown",
+        "NeedsCompilation": "no",
+        "License": "GPL (>= 3)"
+      }
+    },
+    "glue": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "glue",
+        "Version": "1.8.1",
+        "Depends": "R (>= 4.1)",
+        "Imports": "methods",
+        "Suggests": "crayon, DBI (>= 1.2.0), dplyr, knitr, rlang, rmarkdown, RSQLite, testthat (>= 3.2.0), vctrs (>= 0.3.0), waldo (>= 0.5.3), withr",
+        "NeedsCompilation": "yes",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "gtable": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "gtable",
+        "Version": "0.3.6",
+        "Depends": "R (>= 4.0)",
+        "Imports": "cli, glue, grid, lifecycle, rlang (>= 1.1.0), stats",
+        "Suggests": "covr, ggplot2, knitr, profvis, rmarkdown, testthat (>= 3.0.0)",
+        "NeedsCompilation": "no",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "highr": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "highr",
+        "Version": "0.12",
+        "Depends": "R (>= 3.3.0)",
+        "Imports": "xfun (>= 0.18)",
+        "Suggests": "knitr, markdown, testit",
+        "NeedsCompilation": "no",
+        "License": "GPL"
+      }
+    },
+    "htmltools": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "htmltools",
+        "Version": "0.5.9",
+        "Depends": "R (>= 2.14.1)",
+        "Imports": "base64enc, digest, fastmap (>= 1.1.0), grDevices, rlang (>= 1.0.0), utils",
+        "Suggests": "Cairo, markdown, ragg, shiny, testthat, withr",
+        "Enhances": "knitr",
+        "NeedsCompilation": "yes",
+        "License": "GPL (>= 2)"
+      }
+    },
+    "htmlwidgets": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "htmlwidgets",
+        "Version": "1.6.4",
+        "Imports": "grDevices, htmltools (>= 0.5.7), jsonlite (>= 0.9.16), knitr (>= 1.8), rmarkdown, yaml",
+        "Suggests": "testthat",
+        "Enhances": "shiny (>= 1.1)",
+        "NeedsCompilation": "no",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "httpuv": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "httpuv",
+        "Version": "1.6.17",
+        "Depends": "R (>= 2.15.1)",
+        "Imports": "later (>= 0.8.0), promises, R6, Rcpp (>= 1.0.7), utils",
+        "LinkingTo": "later, Rcpp",
+        "Suggests": "callr, curl, jsonlite, testthat (>= 3.0.0), websocket",
+        "NeedsCompilation": "yes",
+        "License": "GPL (>= 2) | file LICENSE",
+        "SystemRequirements": "GNU make, zlib"
+      }
+    },
+    "isoband": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "isoband",
+        "Version": "0.3.0",
+        "Imports": "cli, grid, rlang, utils",
+        "LinkingTo": "cpp11",
+        "Suggests": "covr, ggplot2, knitr, magick, bench, rmarkdown, sf, testthat (>= 3.0.0), xml2",
+        "NeedsCompilation": "yes",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "jquerylib": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "jquerylib",
+        "Version": "0.1.4",
+        "Imports": "htmltools",
+        "Suggests": "testthat",
+        "NeedsCompilation": "no",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "jsonlite": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "jsonlite",
+        "Version": "2.0.0",
+        "Depends": "methods",
+        "Suggests": "httr, vctrs, testthat, knitr, rmarkdown, R.rsp, sf",
+        "NeedsCompilation": "yes",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "knitr": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "knitr",
+        "Version": "1.51",
+        "Depends": "R (>= 3.6.0)",
+        "Imports": "evaluate (>= 0.15), highr (>= 0.11), methods, tools, xfun (>= 0.52), yaml (>= 2.1.19)",
+        "Suggests": "bslib, DBI (>= 0.4-1), digest, formatR, gifski, gridSVG, htmlwidgets (>= 0.7), jpeg, JuliaCall (>= 0.11.1), magick, litedown, markdown (>= 1.3), otel, otelsdk, png, ragg, reticulate (>= 1.4), rgl (>= 0.95.1201), rlang, rmarkdown, sass, showtext, styler (>= 1.2.0), targets (>= 0.6.0), testit, tibble, tikzDevice (>= 0.10), tinytex (>= 0.56), webshot, rstudioapi, svglite",
+        "NeedsCompilation": "no",
+        "License": "GPL",
+        "SystemRequirements": "Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf)."
+      }
+    },
+    "labeling": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "labeling",
+        "Version": "0.4.3",
+        "Imports": "stats, graphics",
+        "NeedsCompilation": "no",
+        "License": "MIT + file LICENSE | Unlimited"
+      }
+    },
+    "lambda.r": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "lambda.r",
+        "Version": "1.2.4",
+        "Depends": "R (>= 3.0.0)",
+        "Imports": "formatR",
+        "Suggests": "testit",
+        "NeedsCompilation": "no",
+        "License": "LGPL-3"
+      }
+    },
+    "later": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "later",
+        "Version": "1.4.8",
+        "Depends": "R (>= 3.5)",
+        "Imports": "Rcpp (>= 1.0.10), rlang",
+        "LinkingTo": "Rcpp",
+        "Suggests": "knitr, nanonext, promises, rmarkdown, testthat (>= 3.0.0)",
+        "NeedsCompilation": "yes",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "lazyeval": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "lazyeval",
+        "Version": "0.2.3",
+        "Depends": "R (>= 3.1.0)",
+        "Imports": "rlang",
+        "Suggests": "knitr, rmarkdown (>= 0.2.65), testthat, covr",
+        "NeedsCompilation": "yes",
+        "License": "GPL-3"
+      }
+    },
+    "lifecycle": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "lifecycle",
+        "Version": "1.0.5",
+        "Depends": "R (>= 3.6)",
+        "Imports": "cli (>= 3.4.0), rlang (>= 1.1.0)",
+        "Suggests": "covr, knitr, lintr (>= 3.1.0), rmarkdown, testthat (>= 3.0.1), tibble, tidyverse, tools, vctrs, withr, xml2",
+        "NeedsCompilation": "no",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "magrittr": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "magrittr",
+        "Version": "2.0.5",
+        "Depends": "R (>= 3.4.0)",
+        "Suggests": "covr, knitr, rlang, rmarkdown, testthat",
+        "NeedsCompilation": "yes",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "memoise": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "memoise",
+        "Version": "2.0.1",
+        "Imports": "rlang (>= 0.4.10), cachem",
+        "Suggests": "digest, aws.s3, covr, googleAuthR, googleCloudStorageR, httr, testthat",
+        "NeedsCompilation": "no",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "mime": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "mime",
+        "Version": "0.13",
+        "Imports": "tools",
+        "NeedsCompilation": "yes",
+        "License": "GPL"
+      }
+    },
+    "otel": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "otel",
+        "Version": "0.2.0",
+        "Depends": "R (>= 3.6.0)",
+        "Suggests": "callr, cli, glue, jsonlite, otelsdk, processx, shiny, spelling, testthat (>= 3.0.0), utils, withr",
+        "NeedsCompilation": "no",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "pavian": {
+      "Source": "github",
+      "Repository": null,
+      "GithubRepo": "pavian",
+      "GithubUsername": "timp0",
+      "GithubRef": "HEAD",
+      "GithubSha1": "14fbaf4d7965adcfdc3449a6e342d673a9a8320d",
+      "GithubHost": "https://api.github.com",
+      "description": {
+        "Package": "pavian",
+        "Type": "Package",
+        "Title": "Visualize and analyze metagenomics classification results",
+        "Version": "1.2.1",
+        "URL": "https://github.com/fbreitwieser/pavian",
+        "BugReports": "https://github.com/fbreitwieser/pavian/issues",
+        "Authors@R": "person(\"Florian P\", \"Breitwieser\", email = \"fpbreitwieser@gmail.com\", role = c(\"aut\", \"cre\"))",
+        "Description": "R package and Shiny app to visualize and analyze metagenomics classification results from Kraken, Centrifuge and MetaPhlAn.",
+        "Imports": "shiny (>= 0.1.12), shinydashboard, shinyjs, shinyWidgets (>= 0.4.1.970), DT, dplyr, htmltools, htmlwidgets, plyr, rmarkdown, sankeyD3, shinyFileTree, RColorBrewer, colorspace, ggplot2, rhandsontable",
+        "Suggests": " BiocManager, Rsamtools, knitr, testthat",
+        "Remotes": "github::fbreitwieser/sankeyD3, github::fbreitwieser/shinyFileTree",
+        "License": "GPL-3",
+        "LazyData": "TRUE",
+        "RoxygenNote": "7.1.0",
+        "VignetteBuilder": "knitr",
+        "NeedsCompilation": "no"
+      }
+    },
+    "pillar": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "pillar",
+        "Version": "1.11.1",
+        "Imports": "cli (>= 2.3.0), glue, lifecycle, rlang (>= 1.0.2), utf8 (>= 1.1.0), utils, vctrs (>= 0.5.0)",
+        "Suggests": "bit64, DBI, debugme, DiagrammeR, dplyr, formattable, ggplot2, knitr, lubridate, nanotime, nycflights13, palmerpenguins, rmarkdown, scales, stringi, survival, testthat (>= 3.1.1), tibble, units (>= 0.7.2), vdiffr, withr",
+        "NeedsCompilation": "no",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "pkgconfig": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "pkgconfig",
+        "Version": "2.0.3",
+        "Imports": "utils",
+        "Suggests": "covr, testthat, disposables (>= 1.0.3)",
+        "NeedsCompilation": "no",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "plyr": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "plyr",
+        "Version": "1.8.9",
+        "Depends": "R (>= 3.1.0)",
+        "Imports": "Rcpp (>= 0.11.0)",
+        "LinkingTo": "Rcpp",
+        "Suggests": "abind, covr, doParallel, foreach, iterators, itertools, tcltk, testthat",
+        "NeedsCompilation": "yes",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "promises": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "promises",
+        "Version": "1.5.0",
+        "Depends": "R (>= 4.1.0)",
+        "Imports": "fastmap (>= 1.1.0), later, lifecycle, magrittr (>= 1.5), otel (>= 0.2.0), R6, rlang",
+        "Suggests": "future (>= 1.21.0), knitr, mirai, otelsdk (>= 0.2.0), purrr, Rcpp, rmarkdown, spelling, testthat (>= 3.0.0), vembedr",
+        "NeedsCompilation": "no",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "purrr": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "purrr",
+        "Version": "1.2.2",
+        "Depends": "R (>= 4.1)",
+        "Imports": "cli (>= 3.6.1), lifecycle (>= 1.0.3), magrittr (>= 1.5.0), rlang (>= 1.1.1), vctrs (>= 0.6.3)",
+        "LinkingTo": "cli",
+        "Suggests": "carrier (>= 0.3.0), covr, dplyr (>= 0.7.8), httr, knitr, lubridate, mirai (>= 2.5.1), rmarkdown, testthat (>= 3.0.0), tibble, tidyselect",
+        "NeedsCompilation": "yes",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "rappdirs": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "rappdirs",
+        "Version": "0.3.4",
+        "Depends": "R (>= 4.1)",
+        "Suggests": "covr, roxygen2, testthat (>= 3.2.0), withr",
+        "NeedsCompilation": "yes",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "rhandsontable": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "rhandsontable",
+        "Version": "0.3.8",
+        "Imports": "jsonlite, htmlwidgets (>= 0.3.3), magrittr, methods, utils",
+        "Suggests": "knitr, rmarkdown, shiny (>= 0.13), miniUI (>= 0.1.1), rstudioapi (>= 0.6), htmltools",
+        "NeedsCompilation": "no",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "rlang": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "rlang",
+        "Version": "1.3.0",
+        "Depends": "R (>= 4.0.0)",
+        "Imports": "utils",
+        "Suggests": "cli (>= 3.1.0), covr, crayon, desc, fs, glue, knitr, magrittr, methods, pillar, pkgload, rmarkdown, stats, testthat (>= 3.3.2), tibble, usethis, vctrs (>= 0.2.3), withr",
+        "Enhances": "winch",
+        "NeedsCompilation": "yes",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "rmarkdown": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "rmarkdown",
+        "Version": "2.32",
+        "Depends": "R (>= 3.0)",
+        "Imports": "bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>= 0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>= 1.50), methods, tinytex (>= 0.31), tools, utils, xfun (>= 0.36), yaml (>= 2.1.19)",
+        "Suggests": "digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>= 3.0.3), tibble, vctrs, cleanrmd, withr (>= 2.4.2), xml2",
+        "NeedsCompilation": "no",
+        "License": "MIT + file LICENSE",
+        "SystemRequirements": "pandoc (>= 2.8) - http://pandoc.org"
+      }
+    },
+    "sankeyD3": {
+      "Source": "github",
+      "Repository": null,
+      "GithubRepo": "sankeyD3",
+      "GithubUsername": "fbreitwieser",
+      "GithubRef": "HEAD",
+      "GithubSha1": "b2260a3fd675639c173bf1b1358b0a031908383b",
+      "GithubHost": "https://api.github.com",
+      "description": {
+        "Package": "sankeyD3",
+        "Type": "Package",
+        "Title": "D3 JavaScript Sankey Graphs from R",
+        "Description": "Creates 'D3' 'JavaScript' Sankey graphs from 'R'.",
+        "Version": "0.4.1",
+        "Date": "2026-02-27",
+        "Authors@R": "c( person(\"Florian\",\"Breitwieser\", email = \"florian.bw@gmail.com\", role = c(\"aut\",\"cre\")), person(\"Christopher\", \"Gandrud\", role = \"aut\"), person(\"J.J.\", \"Allaire\", role = \"aut\"), person(\"Kenton\", \"Russell\", role = \"aut\"), person(\"Mike\", \"Bostock\", role = c(\"aut\", \"cph\") , comment = \"d3.js library, http://d3js.org\" ), person(\"B.W.\", \"Lewis\", role = \"ctb\"), person(\"Kevin\", \"Kuo\", role = \"ctb\"), person(\"Charles\", \"Sese\", role = \"ctb\"), person(\"Peter\", \"Ellis\", role = \"ctb\"), person(\"Jonathan\", \"Owen\", role = \"ctb\"), person(\"Jennifer\",\"Rogers\", role = \"ctb\") )",
+        "URL": "https://github.com/fbreitwieser/sankeyD3",
+        "BugReports": "https://github.com/fbreitwieser/sankeyD3/issues",
+        "License": "GPL (>= 3)",
+        "Depends": " R (>= 3.0.0)",
+        "Imports": " d3r, htmlwidgets (>= 0.3.2), magrittr, shiny, ggsci",
+        "Suggests": " htmltools (>= 0.2.6), igraph, jsonlite",
+        "Enhances": "knitr",
+        "Encoding": "UTF-8",
+        "LazyData": "true",
+        "Roxygen": "list(markdown = TRUE)",
+        "RoxygenNote": "7.3.3"
+      }
+    },
+    "sass": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "sass",
+        "Version": "0.4.10",
+        "Imports": "fs (>= 1.2.4), rlang (>= 0.4.10), htmltools (>= 0.5.1), R6, rappdirs",
+        "Suggests": "testthat, knitr, rmarkdown, withr, shiny, curl",
+        "NeedsCompilation": "yes",
+        "License": "MIT + file LICENSE",
+        "SystemRequirements": "GNU make"
+      }
+    },
+    "scales": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "scales",
+        "Version": "1.4.0",
+        "Depends": "R (>= 4.1)",
+        "Imports": "cli, farver (>= 2.0.3), glue, labeling, lifecycle, R6, RColorBrewer, rlang (>= 1.1.0), viridisLite",
+        "Suggests": "bit64, covr, dichromat, ggplot2, hms (>= 0.5.0), stringi, testthat (>= 3.0.0)",
+        "NeedsCompilation": "no",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "shiny": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "shiny",
+        "Version": "1.14.0",
+        "Depends": "methods, R (>= 3.1.2)",
+        "Imports": "bslib (>= 0.6.0), cachem (>= 1.1.0), cli, commonmark (>= 2.0.0), fastmap (>= 1.1.1), fontawesome (>= 0.4.0), glue (>= 1.3.2), grDevices, htmltools (>= 0.5.4), httpuv (>= 1.5.2), jsonlite (>= 0.9.16), later (>= 1.0.0), lifecycle (>= 0.2.0), mime (>= 0.3), otel, promises (>= 1.5.0), R6 (>= 2.0), rlang (>= 0.4.10), sourcetools, tools, utils, withr, xtable",
+        "Suggests": "Cairo (>= 1.5-5), coro (>= 1.1.0), datasets, DT, dygraphs, future, ggplot2, knitr (>= 1.6), magrittr, markdown, mirai, otelsdk (>= 0.2.0), ragg, reactlog (>= 1.0.0), rmarkdown, sass, shinytest2, showtext, testthat (>= 3.2.1), watcher, yaml",
+        "NeedsCompilation": "no",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "shinyFileTree": {
+      "Source": "github",
+      "Repository": null,
+      "GithubRepo": "shinyFileTree",
+      "GithubUsername": "fbreitwieser",
+      "GithubRef": "HEAD",
+      "GithubSha1": "76c44e744c930c3908a98d4a055a5bff7fba1e0c",
+      "GithubHost": "https://api.github.com",
+      "description": {
+        "Package": "shinyFileTree",
+        "Title": "Directory tree for R/Shiny",
+        "Version": "0.0.0.9000",
+        "Authors@R": "person(\"Florian\", \"Breitwieser\", email = \"florian.bw@gmail.com\", role = c(\"aut\", \"cre\"))",
+        "Description": "This creates a widget with a shiny file tree.",
+        "Depends": "R (>= 3.2.3)",
+        "Imports": "htmlwidgets",
+        "License": "GPL-3",
+        "LazyData": "true",
+        "RoxygenNote": "6.1.1"
+      }
+    },
+    "shinyWidgets": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "shinyWidgets",
+        "Version": "0.9.1",
+        "Depends": "R (>= 3.1.0)",
+        "Imports": "bslib, sass, shiny (>= 1.6.0), htmltools (>= 0.5.1), jsonlite, grDevices, rlang",
+        "Suggests": "testthat, covr, ggplot2, DT, scales, shinydashboard, shinydashboardPlus",
+        "NeedsCompilation": "no",
+        "License": "GPL-3"
+      }
+    },
+    "shinydashboard": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "shinydashboard",
+        "Version": "0.7.3",
+        "Depends": "R (>= 3.0)",
+        "Imports": "htmltools (>= 0.2.6), promises, shiny (>= 1.0.0), utils",
+        "NeedsCompilation": "no",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "shinyjs": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "shinyjs",
+        "Version": "2.1.1",
+        "Depends": "R (>= 3.1.0)",
+        "Imports": "digest (>= 0.6.8), jsonlite, shiny (>= 1.0.0)",
+        "Suggests": "htmltools (>= 0.2.9), knitr (>= 1.7), rmarkdown, shinyAce, shinydisconnect, testthat (>= 0.9.1)",
+        "NeedsCompilation": "no",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "snow": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "snow",
+        "Version": "0.4-4",
+        "Depends": "R (>= 2.13.1), utils",
+        "Suggests": "rlecuyer",
+        "Enhances": "Rmpi",
+        "NeedsCompilation": "no",
+        "License": "GPL"
+      }
+    },
+    "sourcetools": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "sourcetools",
+        "Version": "0.1.7-2",
+        "Depends": "R (>= 3.0.2)",
+        "Suggests": "testthat",
+        "NeedsCompilation": "yes",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "stringi": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "stringi",
+        "Version": "1.8.9",
+        "Depends": "R (>= 3.4)",
+        "Imports": "tools, utils, stats",
+        "License_is_FOSS": "yes",
+        "NeedsCompilation": "yes",
+        "License": "file LICENSE",
+        "SystemRequirements": "ICU4C (>= 61, optional)"
+      }
+    },
+    "stringr": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "stringr",
+        "Version": "1.6.0",
+        "Depends": "R (>= 4.1.0)",
+        "Imports": "cli, glue (>= 1.6.1), lifecycle (>= 1.0.3), magrittr, rlang (>= 1.0.0), stringi (>= 1.5.3), vctrs (>= 0.4.0)",
+        "Suggests": "covr, dplyr, gt, htmltools, htmlwidgets, knitr, rmarkdown, testthat (>= 3.0.0), tibble",
+        "NeedsCompilation": "no",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "tibble": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "tibble",
+        "Version": "3.3.1",
+        "Depends": "R (>= 3.4.0)",
+        "Imports": "cli, lifecycle (>= 1.0.0), magrittr, methods, pillar (>= 1.8.1), pkgconfig, rlang (>= 1.0.2), utils, vctrs (>= 0.5.0)",
+        "Suggests": "bench, bit64, blob, brio, callr, DiagrammeR, dplyr, evaluate, formattable, ggplot2, here, hms, htmltools, knitr, lubridate, nycflights13, pkgload, purrr, rmarkdown, stringi, testthat (>= 3.0.2), tidyr, withr",
+        "NeedsCompilation": "yes",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "tidyr": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "tidyr",
+        "Version": "1.3.2",
+        "Depends": "R (>= 4.1.0)",
+        "Imports": "cli (>= 3.4.1), dplyr (>= 1.1.0), glue, lifecycle (>= 1.0.3), magrittr, purrr (>= 1.0.1), rlang (>= 1.1.1), stringr (>= 1.5.0), tibble (>= 2.1.1), tidyselect (>= 1.2.1), utils, vctrs (>= 0.5.2)",
+        "LinkingTo": "cpp11 (>= 0.4.0)",
+        "Suggests": "covr, data.table, knitr, readr, repurrrsive (>= 1.1.0), rmarkdown, testthat (>= 3.0.0)",
+        "NeedsCompilation": "yes",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "tidyselect": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "tidyselect",
+        "Version": "1.2.1",
+        "Depends": "R (>= 3.4)",
+        "Imports": "cli (>= 3.3.0), glue (>= 1.3.0), lifecycle (>= 1.0.3), rlang (>= 1.0.4), vctrs (>= 0.5.2), withr",
+        "Suggests": "covr, crayon, dplyr, knitr, magrittr, rmarkdown, stringr, testthat (>= 3.1.1), tibble (>= 2.1.3)",
+        "NeedsCompilation": "yes",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "tinytex": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "tinytex",
+        "Version": "0.60",
+        "Imports": "xfun (>= 0.48)",
+        "Suggests": "testit, rstudioapi",
+        "NeedsCompilation": "no",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "utf8": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "utf8",
+        "Version": "1.2.6",
+        "Depends": "R (>= 2.10)",
+        "Suggests": "cli, covr, knitr, rlang, rmarkdown, testthat (>= 3.0.0), withr",
+        "NeedsCompilation": "yes",
+        "License": "Apache License (== 2.0) | file LICENSE"
+      }
+    },
+    "vctrs": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "vctrs",
+        "Version": "0.7.3",
+        "Depends": "R (>= 4.0.0)",
+        "Imports": "cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.7)",
+        "Suggests": "bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr, pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>= 3.0.0), tibble (>= 3.1.3), waldo (>= 0.2.0), withr, xml2, zeallot",
+        "NeedsCompilation": "yes",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "viridisLite": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "viridisLite",
+        "Version": "0.4.3",
+        "Depends": "R (>= 2.10)",
+        "Suggests": "hexbin (>= 1.27.0), ggplot2 (>= 1.0.1), testthat, covr",
+        "NeedsCompilation": "no",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "withr": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "withr",
+        "Version": "3.0.3",
+        "Depends": "R (>= 3.6.0)",
+        "Imports": "graphics, grDevices",
+        "Suggests": "callr, DBI, knitr, methods, rlang, rmarkdown (>= 2.12), RSQLite, testthat (>= 3.0.0)",
+        "NeedsCompilation": "no",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "xfun": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "xfun",
+        "Version": "0.60",
+        "Depends": "R (>= 3.2.0)",
+        "Imports": "grDevices, stats, tools",
+        "Suggests": "testit, parallel, codetools, methods, rstudioapi, tinytex (>= 0.30), mime, litedown (>= 0.6), commonmark, knitr (>= 1.50), remotes, pak, curl, xml2, jsonlite, magick, yaml, data.table, qs2",
+        "NeedsCompilation": "yes",
+        "License": "MIT + file LICENSE"
+      }
+    },
+    "xtable": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "xtable",
+        "Version": "1.8-8",
+        "Depends": "R (>= 2.10.0)",
+        "Imports": "stats, utils, methods",
+        "Suggests": "knitr, zoo, survival, glue, tinytex",
+        "NeedsCompilation": "no",
+        "License": "GPL (>= 2)"
+      }
+    },
+    "yaml": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/2026-09-05",
+      "GithubRepo": null,
+      "GithubUsername": null,
+      "GithubRef": null,
+      "GithubSha1": null,
+      "description": {
+        "Package": "yaml",
+        "Version": "2.3.12",
+        "Suggests": "knitr, rmarkdown, testthat (>= 3.0.0)",
+        "NeedsCompilation": "yes",
+        "License": "BSD_3_clause + file LICENSE"
+      }
+    }
+  },
+  "files": {
+    "app.R": {
+      "checksum": "3910bfb48fca4fb3238dbf40a9184a39"
+    },
+    "example-data/PT5-JC_polyomavirus.bam": {
+      "checksum": "1d6689e6f1a2ff7e6ecc2a2475679728"
+    },
+    "example-data/PT5-JC_polyomavirus.bam.bai": {
+      "checksum": "fdbaba7bd1e6e2289aeebc765315f73d"
+    },
+    "example-data/brain-biopsies/PT1-DNA.report": {
+      "checksum": "7ef08928e483b25577479253c09c836e"
+    },
+    "example-data/brain-biopsies/PT10-DNA.report": {
+      "checksum": "533fcabfb2d6cc5dbc2fd5358f0f0c50"
+    },
+    "example-data/brain-biopsies/PT2-DNA.report": {
+      "checksum": "bc7b94fbbdd29ac01d0b93e4690be85b"
+    },
+    "example-data/brain-biopsies/PT3-RNA.report": {
+      "checksum": "598310271b6411e195f7d95cc50987c8"
+    },
+    "example-data/brain-biopsies/PT4-RNA.report": {
+      "checksum": "47214821bfea015f23bc853534d87d14"
+    },
+    "example-data/brain-biopsies/PT5-RNA.report": {
+      "checksum": "390042f49fcb0b9e53ebe43a2cecfc66"
+    },
+    "example-data/brain-biopsies/PT6-RNA.report": {
+      "checksum": "08c0498def1e4f0bb6718b4a59e83b1e"
+    },
+    "example-data/brain-biopsies/PT7-DNA.report": {
+      "checksum": "302a9b64138260944f7249ff4ab80494"
+    },
+    "example-data/brain-biopsies/PT8-DNA-S1.report": {
+      "checksum": "34175aa764e11f65f031c5fb891cec56"
+    },
+    "example-data/brain-biopsies/PT8-DNA-S2.report": {
+      "checksum": "dec5c196ed6b94c0d21b7c56517a2595"
+    },
+    "example-data/brain-biopsies/PT9-DNA.report": {
+      "checksum": "a3b64c15de553e84e879ee68bb4b6519"
+    },
+    "example-data/brain-biopsies/sample_data.csv": {
+      "checksum": "8fbd94871e6a0cd331bea3a22a82ca50"
+    },
+    "example-data/hmp/SRS011061.profile": {
+      "checksum": "661408df22bb1a38f8eff4c8dafd4bff"
+    },
+    "example-data/hmp/SRS011084.profile": {
+      "checksum": "758a03f17978b61d7d2ee7d56af64ef2"
+    },
+    "example-data/hmp/SRS011086.profile": {
+      "checksum": "599fd2561cb67197117f457ee07a0938"
+    },
+    "example-data/hmp/SRS011090.profile": {
+      "checksum": "f8fc17745d18c2264e205c0197268c5e"
+    },
+    "example-data/hmp/SRS011098.profile": {
+      "checksum": "7a006d1cbe3a2fb1c24acf7039678a71"
+    },
+    "example-data/hmp/SRS011105.profile": {
+      "checksum": "e7108896924561f3fa825c2905d73a9a"
+    },
+    "example-data/hmp/SRS011111.profile": {
+      "checksum": "2e6b1825319308b6d4d1b9884b962779"
+    },
+    "example-data/hmp/SRS011115.profile": {
+      "checksum": "459aa78cada426368007485239a7646b"
+    },
+    "example-data/hmp/SRS011126.profile": {
+      "checksum": "295725840e9f2084057e839ed61f2fd3"
+    },
+    "example-data/hmp/SRS011132.profile": {
+      "checksum": "bc3f9304e71ca7256ca3ff7ebae4c94a"
+    },
+    "example-data/hmp/SRS011134.profile": {
+      "checksum": "d58e97fc4dbace2f82854e6f87593f75"
+    },
+    "example-data/hmp/SRS011140.profile": {
+      "checksum": "4457afaa9e010b1f9a06ca10e932f796"
+    },
+    "example-data/hmp/SRS011144.profile": {
+      "checksum": "f930cd8ea2ca2cdff04e8652f090cfde"
+    },
+    "example-data/hmp/SRS011152.profile": {
+      "checksum": "82ae101aa97f0d9ae5720fffc4f10cf6"
+    },
+    "style.css": {
+      "checksum": "7fddecb2c349390cadba6c8d912d338a"
+    },
+    "www/baboon-outline.png": {
+      "checksum": "24232c505b560e6175b3fe4ea2162e96"
+    },
+    "www/favicon.ico": {
+      "checksum": "9ad37e3de8fae471290b6bb1cb45ea95"
+    },
+    "www/loading.gif": {
+      "checksum": "8b6601096ba54b6cdb645332bc2cfb1d"
+    }
+  },
+  "users": null
+}
